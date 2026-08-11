@@ -1,8 +1,10 @@
-/* Shared light/dark theme — include on every page.
-   The toggle button (#themeBtn) only exists on the home page. Sub-pages
-   receive the active theme via a `?theme=` query param on the links that
-   carry data-theme-link, so the whole site stays in sync without any
-   toggle appearing outside the home page. */
+/* Shared light/dark theme — include on every page, before partials.js.
+   The toggle button (#themeBtn) only exists on the home page (it's injected
+   by partials.js there). Sub-pages receive the active theme via a `?theme=`
+   query param carried on links marked data-theme-link, so the whole site
+   stays in sync without a toggle appearing outside the home page.
+   Uses event delegation so it works even though #themeBtn is injected
+   dynamically after this script runs. */
 (function(){
   const KEY_ATTR = 'data-theme';
 
@@ -36,20 +38,19 @@
 
   window.getCurrentTheme = function(){ return theme; };
   window.syncThemeLinks = syncThemeLinks;
+  window.applyTheme = apply;
 
-  document.addEventListener('DOMContentLoaded', function(){
-    const btn = document.getElementById('themeBtn');
-    if(btn){
-      btn.addEventListener('click', function(){
-        theme = theme === 'light' ? 'dark' : 'light';
-        apply();
-        if(window.history && history.replaceState){
-          const url = new URL(window.location.href);
-          url.searchParams.set('theme', theme);
-          history.replaceState(null, '', url);
-        }
-      });
-    }
+  document.addEventListener('click', function(e){
+    const btn = e.target.closest('#themeBtn');
+    if(!btn) return;
+    theme = theme === 'light' ? 'dark' : 'light';
     apply();
+    if(window.history && history.replaceState){
+      const url = new URL(window.location.href);
+      url.searchParams.set('theme', theme);
+      history.replaceState(null, '', url);
+    }
   });
+
+  document.addEventListener('DOMContentLoaded', apply);
 })();
