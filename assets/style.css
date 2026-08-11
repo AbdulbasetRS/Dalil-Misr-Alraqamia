@@ -150,6 +150,12 @@ footer.home-footer{
   color:var(--ink-soft); font-size:.8rem;
 }
 
+.link-chip.disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    user-select: none;
+}
+
 /* ---------- SERVICE PRESENTATION PAGES ---------- */
 html.presentation, html.presentation body{height:100%; overflow:hidden;}
 .deck{height:100vh; width:100%; overflow-y:scroll; scroll-snap-type:y mandatory; scroll-behavior:smooth;}
