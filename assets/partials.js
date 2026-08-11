@@ -17,8 +17,8 @@
   /* ---- Edit these once; every page picks it up automatically ---- */
   const SITE_NAME = 'دليل مصر الرقمية';
   const DEFAULT_SUBTITLE = 'منصة شرح الخدمات الحكومية';
-  const FOOTER_LEFT = 'دليل مصر الرقمية — دليل استرشادي داخلي لشرح الخدمات';
-  const FOOTER_RIGHT = 'يتم إضافة خدمات جديدة أولًا بأول';
+  const FOOTER_LEFT = 'دليل مصر الرقمية — دليل استرشادي لشرح الخدمات';
+  const FOOTER_RIGHT = 'يتم إضافة الخدمات تدريجيًا وبشكل مستمر.';
   const EXPLAINER_AVATAR = 'https://avatars.githubusercontent.com/u/74756037?v=4';
   const EXPLAINER_NAME = 'Abdulbaset R. Sayed';
   /* ----------------------------------------------------------------- */
