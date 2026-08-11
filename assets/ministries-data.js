@@ -2,7 +2,7 @@
    status: 'ready' shows the services grid, 'soon' shows a muted "قريبًا" tag. */
 const MINISTRIES = [
   {
-    name: 'وزارة الإسكان والمرافق والمجتمعات العمرانية',
+    name: 'الإسكان الإجتماعي ودعم التمويل العقاري',
     status: 'ready',
     services: [
       {
