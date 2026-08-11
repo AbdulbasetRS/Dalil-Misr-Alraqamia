@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل مصر الرقمية</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img class="mark" src="assets/logo.svg" alt="مصر الرقمية">
+    <span>
+      دليل مصر الرقمية
+      <span class="sub">منصة شرح الخدمات الحكومية</span>
+    </span>
+  </a>
+  <div class="topbar-controls">
+    <button class="icon-btn" id="themeBtn" aria-label="تبديل المظهر">
+      <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"></svg>
+    </button>
+  </div>
+</header>
+
+<main id="home-view">
+  <section class="hero">
+    <span class="eyebrow">بوابة الخدمات الحكومية الموحدة</span>
+    <h1>كل خدمة حكومية، <em>موضّحة خطوة بخطوة</em></h1>
+    <p class="lead">دليل مرئي لخدمات مصر الرقمية، مقسّم حسب كل وزارة على حدة. اختر الخدمة لتنتقل إلى صفحتها الخاصة بشرح كامل لها بترتيب واضح: الوصف، الخطوات، ثم الرسوم — بتصميم يناسب العرض والتسجيل المباشر.</p>
+    <div class="scroll-hint"><span class="dot-line"></span> مرّر للأسفل لاستعراض الوزارات</div>
+  </section>
+
+  <section class="section-wrap">
+    <div class="section-head">
+      <h2>الخدمات حسب الوزارة</h2>
+      <span class="count" id="ministryCount"></span>
+    </div>
+    <div class="ministries" id="ministriesList"></div>
+  </section>
+
+  <section class="section-wrap">
+    <div class="section-head">
+      <h2>عن الدليل</h2>
+    </div>
+    <div class="author-card">
+      <img class="author-avatar" src="https://avatars.githubusercontent.com/u/74756037?v=4" alt="عبدالباسط رضا سيد">
+      <div class="author-info">
+        <div class="author-name">Abdulbaset R. Sayed</div>
+        <div class="author-role">Backend Developer Laravel Specialist</div>
+        <p class="author-bio">مطوّر باك-إند متخصص في Laravel وPHP، وهو من يقوم بإعداد وتطوير هذا الدليل لشرح خدمات مصر الرقمية بصريًا وخطوة بخطوة. لمزيد من أعماله ومكتباته مفتوحة المصدر، تقدر تزور حساباته من الروابط بالأسفل.</p>
+
+        <div class="link-row">
+          <span class="link-row-label">تواصل</span>
+          <a class="link-chip" href="https://digitalatum.com/" target="_blank" rel="noopener" >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 6 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-6-3.8-9s1.3-6.3 3.8-9z"/></svg>
+            الموقع الشخصي
+          </a>
+          <a class="link-chip" href="https://github.com/AbdulbasetRS" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            جيت هاب
+          </a>
+          <a class="link-chip" href="https://www.linkedin.com/in/abdulbaset-r-sayed" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-3.5a1.8 1.8 0 0 1 3.6 0V16M12 12.5V16"/></svg>
+            لينكدإن
+          </a>
+          <a class="link-chip" href="https://x.com/AbdulBasetRS" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg>
+            إكس
+          </a>
+          <a class="link-chip" href="https://www.facebook.com/AbdulBasetRedaSayed/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M14 8.5h-1.5A1.5 1.5 0 0 0 11 10v10M9 13h4"/></svg>
+            فيسبوك
+          </a>
+          <a class="link-chip" href="https://www.instagram.com/abdulbaset_rs/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            إنستجرام
+          </a>
+          <a class="link-chip" href="mailto:AbdulbasetRedaSayedHF@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            البريد الإلكتروني
+          </a>
+        </div>
+
+        <div class="link-row donate">
+          <span class="link-row-label">لدعم العمل</span>
+          <a class="link-chip" href="https://buymeacoffee.com/abdulbaset" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9h13a3 3 0 0 1 0 6h-1M4 9v7a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9M4 9V6h13v3"/></svg>
+            اشترِ لي قهوة
+          </a>
+          <a class="link-chip" href="https://github.com/sponsors/AbdulbasetRS" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7.5-4.8-10-9.3C.5 8.2 2 5 5.3 5c1.9 0 3.3 1 3.7 2.4C9.4 6 10.8 5 12.7 5 16 5 17.5 8.2 22 11.7 19.5 16.2 12 21 12 21z"/></svg>
+            رعاية عبر جيت هاب
+          </a>
+          <a class="link-chip" href="https://paypal.me/abdulbasetrs" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 15V9h2.8a2.2 2.2 0 0 1 0 4.4H9.5"/></svg>
+            تبرّع عبر PayPal
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="home-footer">
+    <span>دليل مصر الرقمية — دليل استرشادي داخلي لشرح الخدمات</span>
+    <span>يتم إضافة خدمات جديدة أولًا بأول</span>
+  </footer>
+</main>
+
+<script src="assets/theme.js"></script>
+<script src="assets/ministries-data.js"></script>
+<script src="assets/home.js"></script>
+</body>
+</html>

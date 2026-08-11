@@ -1,0 +1,55 @@
+/* Shared light/dark theme — include on every page.
+   The toggle button (#themeBtn) only exists on the home page. Sub-pages
+   receive the active theme via a `?theme=` query param on the links that
+   carry data-theme-link, so the whole site stays in sync without any
+   toggle appearing outside the home page. */
+(function(){
+  const KEY_ATTR = 'data-theme';
+
+  function themeFromQuery(){
+    const params = new URLSearchParams(window.location.search);
+    const t = params.get('theme');
+    return (t === 'dark' || t === 'light') ? t : 'light';
+  }
+
+  let theme = themeFromQuery();
+
+  function icon(){
+    return theme === 'dark'
+      ? '<path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/>'
+      : '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>';
+  }
+
+  function syncThemeLinks(){
+    document.querySelectorAll('[data-theme-link]').forEach(a => {
+      const base = a.getAttribute('href').split('?')[0];
+      a.setAttribute('href', base + '?theme=' + theme);
+    });
+  }
+
+  function apply(){
+    document.documentElement.setAttribute(KEY_ATTR, theme);
+    const iconEl = document.getElementById('themeIcon');
+    if(iconEl) iconEl.innerHTML = icon();
+    syncThemeLinks();
+  }
+
+  window.getCurrentTheme = function(){ return theme; };
+  window.syncThemeLinks = syncThemeLinks;
+
+  document.addEventListener('DOMContentLoaded', function(){
+    const btn = document.getElementById('themeBtn');
+    if(btn){
+      btn.addEventListener('click', function(){
+        theme = theme === 'light' ? 'dark' : 'light';
+        apply();
+        if(window.history && history.replaceState){
+          const url = new URL(window.location.href);
+          url.searchParams.set('theme', theme);
+          history.replaceState(null, '', url);
+        }
+      });
+    }
+    apply();
+  });
+})();
