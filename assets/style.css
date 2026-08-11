@@ -286,6 +286,19 @@ html.presentation, html.presentation body{height:100%; overflow:hidden;}
 .slide-close .contact-chip{background:rgba(244,245,241,0.06); border-color:rgba(244,245,241,0.2); color:#F4F5F1;}
 .slide-close .contact-chip svg{color:#7FD9BE;}
 
+.explainer{
+  display:flex; align-items:center; gap:14px; justify-content:center;
+  margin-top:36px; padding-top:26px; border-top:1px solid rgba(244,245,241,0.15);
+}
+.explainer-avatar{
+  width:46px; height:46px; border-radius:50%; object-fit:cover; flex-shrink:0;
+  border:2px solid rgba(231,199,122,0.5);
+}
+.explainer-text{text-align:right;}
+.explainer-line{font-size:.88rem; color:#F4F5F1;}
+.explainer-line strong{color:#E7C77A; font-weight:600;}
+.explainer-date{font-size:.72rem; color:#9FB0C0; font-family:'IBM Plex Mono'; margin-top:4px;}
+
 /* ---------- Author / support section (home page) ---------- */
 .author-card{
   display:flex; gap:32px; align-items:flex-start; flex-wrap:wrap;
@@ -313,3 +326,19 @@ html.presentation, html.presentation body{height:100%; overflow:hidden;}
 .link-row.donate .link-chip:hover{border-color:var(--gold);}
 .link-row.donate .link-chip svg{color:var(--gold);}
 .link-row-label{width:100%; font-family:'IBM Plex Mono'; font-size:.7rem; color:var(--ink-soft); letter-spacing:.06em; margin-bottom:2px;}
+
+/* ---------- Presenter / last-updated block (service closing slide) ---------- */
+.presenter-card{
+  display:inline-flex; align-items:center; gap:14px; margin-top:34px;
+  padding:12px 20px 12px 24px; border-radius:999px;
+  border:1px solid rgba(244,245,241,0.2); background:rgba(244,245,241,0.06);
+}
+.presenter-avatar{width:46px; height:46px; border-radius:50%; object-fit:cover; border:2px solid rgba(231,199,122,0.5);}
+.presenter-name{font-family:'El Messiri'; font-weight:600; font-size:.92rem; color:#F4F5F1; text-align:right;}
+.presenter-role{font-size:.72rem; color:#C8D2DC; margin-top:2px;}
+.date-badge{
+  display:inline-flex; align-items:center; gap:8px; margin-top:18px;
+  padding:8px 16px; border-radius:999px; border:1px solid rgba(244,245,241,0.18);
+  font-size:.75rem; color:#C8D2DC; font-family:'IBM Plex Mono';
+}
+.date-badge svg{width:14px; height:14px; color:#7FD9BE;}
