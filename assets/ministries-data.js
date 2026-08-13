@@ -17,6 +17,17 @@ const MINISTRIES = [
       }
     ]
   },
+  {
+    name: 'التعليم العالي والبحث العلمي',
+    status: 'ready',
+    services: [
+      {
+        title: 'خدمات التنسيق الثانوية العامة',
+        desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد ومتابعة نتيجة الترشيح للحاصلين على الثانوية العامة والأزهرية والفنية.',
+        href: 'ministries/higher-education/tansik-thanaweya-amma.html'
+      }
+    ]
+  },
   { name: 'وزارة الداخلية', status: 'soon', services: [] },
   { name: 'وزارة المالية', status: 'soon', services: [] },
   { name: 'وزارة الصحة والسكان', status: 'soon', services: [] },
