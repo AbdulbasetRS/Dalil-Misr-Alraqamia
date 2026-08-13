@@ -25,6 +25,11 @@ const MINISTRIES = [
         title: 'خدمات التنسيق الثانوية العامة',
         desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد ومتابعة نتيجة الترشيح للحاصلين على الثانوية العامة والأزهرية والفنية.',
         href: 'ministries/higher-education/tansik-thanaweya-amma.html'
+      },
+      {
+        title: 'خدمات تنسيق شهادات المعادلة',
+        desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد لحاملي شهادات المعادلة العربية والسودانية والأجنبية.',
+        href: 'ministries/higher-education/equivalency-certificates-tansik.html'
       }
     ]
   },
