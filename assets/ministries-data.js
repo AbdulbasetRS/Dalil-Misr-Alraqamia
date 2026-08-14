@@ -65,6 +65,11 @@ const MINISTRIES = [
         title: 'تنسيق مدارس STEM للعلوم والتكنولوجيا',
         desc: 'تسجيل رغبات خريجي مدارس العلوم والتكنولوجيا (STEM) للالتحاق بالكليات الهندسية والعلمية المتاحة لهم حسب شعبتهم.',
         href: 'ministries/higher-education/stem-schools-tansik.html'
+      },
+      {
+        title: 'تنسيق مدارس النيل للعلوم والتكنولوجيا',
+        desc: 'تسجيل رغبات خريجي مدارس النيل للعلوم والتكنولوجيا، بمرحلة واحدة فقط للتسجيل وإمكانية الالتحاق بالكليات الأدبية أيضًا.',
+        href: 'ministries/higher-education/nile-schools-tansik.html'
       }
     ]
   },
