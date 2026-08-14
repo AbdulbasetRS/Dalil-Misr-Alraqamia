@@ -55,6 +55,11 @@ const MINISTRIES = [
         title: 'المستنفذين والمتخلفين والوافدين',
         desc: 'أحكام الفئات الخاصة في التنسيق: الطلاب المستنفذون الذين استوفوا حقهم، المتخلفون عن التسجيل، والوافدون من غير المصريين.',
         href: 'ministries/higher-education/mostanfezin-motakhalefin-wafedin.html'
+      },
+      {
+        title: 'تنسيق الثانوية الأزهرية المتقدمين لكليات التعليم العالي',
+        desc: 'تسجيل رغبات الحاصلين على الثانوية الأزهرية بكل شهاداتها للالتحاق بالكليات والمعاهد التابعة لوزارة التعليم العالي.',
+        href: 'ministries/higher-education/azhareya-lel-taalim-aali-tansik.html'
       }
     ]
   },
