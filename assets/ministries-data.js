@@ -35,6 +35,11 @@ const MINISTRIES = [
         title: 'خدمات تنسيق شهادات المعادلة',
         desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد لحاملي شهادات المعادلة العربية والسودانية والأجنبية.',
         href: 'ministries/higher-education/equivalency-certificates-tansik.html'
+      },
+      {
+        title: 'تقليل الاغتراب',
+        desc: 'طلب تحويل الطالب المُرشَّح لكلية بعيدة عن نطاقه الجغرافي إلى كلية أقرب ضمن نطاقه، وفقًا للأماكن الخالية المتاحة.',
+        href: 'ministries/higher-education/taqleel-eghterab.html'
       }
     ]
   },
