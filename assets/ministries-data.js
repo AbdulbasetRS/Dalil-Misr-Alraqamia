@@ -27,6 +27,11 @@ const MINISTRIES = [
         href: 'ministries/higher-education/tansik-thanaweya-amma.html'
       },
       {
+        title: 'خدمات التنسيق الثانوية الأزهرية',
+        desc: 'تسجيل رغبات الالتحاق بكليات الأزهر الشريف ومتابعة نتيجة الترشيح للحاصلين على الثانوية الأزهرية بشعبها الثلاث.',
+        href: 'ministries/higher-education/tansik-thanaweya-azhareya.html'
+      },
+      {
         title: 'خدمات تنسيق شهادات المعادلة',
         desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد لحاملي شهادات المعادلة العربية والسودانية والأجنبية.',
         href: 'ministries/higher-education/equivalency-certificates-tansik.html'
