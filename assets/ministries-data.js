@@ -50,6 +50,11 @@ const MINISTRIES = [
         title: 'تقليل الاغتراب',
         desc: 'طلب تحويل الطالب المُرشَّح لكلية بعيدة عن نطاقه الجغرافي إلى كلية أقرب ضمن نطاقه، وفقًا للأماكن الخالية المتاحة.',
         href: 'ministries/higher-education/taqleel-eghterab.html'
+      },
+      {
+        title: 'المستنفذين والمتخلفين والوافدين',
+        desc: 'أحكام الفئات الخاصة في التنسيق: الطلاب المستنفذون الذين استوفوا حقهم، المتخلفون عن التسجيل، والوافدون من غير المصريين.',
+        href: 'ministries/higher-education/mostanfezin-motakhalefin-wafedin.html'
       }
     ]
   },
