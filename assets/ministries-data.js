@@ -22,6 +22,11 @@ const MINISTRIES = [
     status: 'ready',
     services: [
       {
+        title: 'اختبار القدرات',
+        desc: 'حجز وسداد وأداء اختبارات القدرات المطلوبة كشرط للالتحاق ببعض الكليات مثل الإعلام والفنون التطبيقية والتربية الرياضية.',
+        href: 'ministries/higher-education/qudurat-test.html'
+      },
+      {
         title: 'خدمات التنسيق الثانوية العامة',
         desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد ومتابعة نتيجة الترشيح للحاصلين على الثانوية العامة والأزهرية والفنية.',
         href: 'ministries/higher-education/tansik-thanaweya-amma.html'
