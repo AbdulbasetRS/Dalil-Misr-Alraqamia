@@ -37,6 +37,11 @@ const MINISTRIES = [
         href: 'ministries/higher-education/tansik-thanaweya-azhareya.html'
       },
       {
+        title: 'خدمات التنسيق الشهادات الفنية',
+        desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد ومتابعة نتيجة الترشيح للحاصلين على شهادات الدبلومات الفنية.',
+        href: 'ministries/higher-education/tansik-shahadat-fanniya.html'
+      },
+      {
         title: 'خدمات تنسيق شهادات المعادلة',
         desc: 'تسجيل رغبات الالتحاق بالكليات والمعاهد لحاملي شهادات المعادلة العربية والسودانية والأجنبية.',
         href: 'ministries/higher-education/equivalency-certificates-tansik.html'
