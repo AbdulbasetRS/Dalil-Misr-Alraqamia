@@ -18,7 +18,7 @@ const MINISTRIES = [
     ]
   },
   {
-    name: 'التعليم العالي والبحث العلمي',
+    name: 'التعليم العالي والبحث العلمي (التنسيق)',
     status: 'ready',
     services: [
       {
@@ -60,6 +60,11 @@ const MINISTRIES = [
         title: 'تنسيق الثانوية الأزهرية المتقدمين لكليات التعليم العالي',
         desc: 'تسجيل رغبات الحاصلين على الثانوية الأزهرية بكل شهاداتها للالتحاق بالكليات والمعاهد التابعة لوزارة التعليم العالي.',
         href: 'ministries/higher-education/azhareya-lel-taalim-aali-tansik.html'
+      },
+      {
+        title: 'تنسيق مدارس STEM للعلوم والتكنولوجيا',
+        desc: 'تسجيل رغبات خريجي مدارس العلوم والتكنولوجيا (STEM) للالتحاق بالكليات الهندسية والعلمية المتاحة لهم حسب شعبتهم.',
+        href: 'ministries/higher-education/stem-schools-tansik.html'
       }
     ]
   },
