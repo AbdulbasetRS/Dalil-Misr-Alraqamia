@@ -73,6 +73,17 @@ const MINISTRIES = [
       }
     ]
   },
+  {
+    name: 'وزارة المالية',
+    status: 'ready',
+    services: [
+      {
+        title: 'الاستعلام الائتماني (I-Score)',
+        desc: 'الحصول على التقرير الائتماني والتقييم الرقمي من الشركة المصرية للاستعلام الائتماني، متاحة حاليًا عبر الموقع فقط.',
+        href: 'ministries/finance/i-score-credit-inquiry.html'
+      }
+    ]
+  },
   { name: 'وزارة الداخلية', status: 'soon', services: [] },
   { name: 'وزارة المالية', status: 'soon', services: [] },
   { name: 'وزارة الصحة والسكان', status: 'soon', services: [] },
