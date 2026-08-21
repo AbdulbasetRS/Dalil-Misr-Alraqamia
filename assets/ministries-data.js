@@ -6,6 +6,11 @@ const MINISTRIES = [
     status: 'ready',
     services: [
       {
+        title: 'السكن البديل',
+        desc: 'حصر المستأجرين القدامى (قبل 1996) المتضررين من قانون الإيجار الجديد، كمرحلة أولى تمهيدًا لتوفير وحدة بديلة لهم لاحقًا.',
+        href: 'ministries/housing/alt-housing-registration.html'
+      },
+      {
         title: 'رفع المرفقات بالسكن البديل',
         desc: 'رفع المستندات والإقرار المطلوبين لاستكمال طلب سبق تقديمه في خدمة السكن البديل.',
         href: 'ministries/housing/alt-housing-attachments.html'
