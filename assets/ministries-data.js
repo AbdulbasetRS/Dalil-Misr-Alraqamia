@@ -100,6 +100,17 @@ const MINISTRIES = [
       }
     ]
   },
+  {
+    name: 'وزارة العمل',
+    status: 'ready',
+    services: [
+      {
+        title: 'استخراج شهادة قيد',
+        desc: 'طلب استخراج شهادة القيد (كعب العمل)، سارية 6 أشهر لأي مواطن ومدى الحياة لذوي الإعاقة.',
+        href: 'ministries/labor/work-record-certificate.html'
+      }
+    ]
+  },
   { name: 'وزارة الداخلية', status: 'soon', services: [] },
   { name: 'وزارة المالية', status: 'soon', services: [] },
   { name: 'وزارة الصحة والسكان', status: 'soon', services: [] },
