@@ -2,6 +2,17 @@
    status: 'ready' shows the services grid, 'soon' shows a muted "قريبًا" tag. */
 const MINISTRIES = [
   {
+    name: 'خدمات الحساب على مصر الرقمية',
+    status: 'ready',
+    services: [
+      {
+        title: 'الهوية الرقمية',
+        desc: 'تطبيق مستقل للتحقق من هوية المواطن، يتيح تسجيل الدخول على مصر الرقمية بديلاً عن كلمة المرور.',
+        href: 'ministries/account-services/digital-identity.html'
+      }
+    ]
+  },
+  {
     name: 'الإسكان الإجتماعي ودعم التمويل العقاري',
     status: 'ready',
     services: [
