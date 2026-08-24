@@ -108,6 +108,11 @@ const MINISTRIES = [
         title: 'استخراج شهادة قيد',
         desc: 'طلب استخراج شهادة القيد (كعب العمل)، سارية 6 أشهر لأي مواطن ومدى الحياة لذوي الإعاقة.',
         href: 'ministries/labor/work-record-certificate.html'
+      },
+      {
+        title: 'استخراج شهادة قياس مهارة',
+        desc: 'شهادة تثبت مستوى المهارة المهنية، تلزم بعض الوظائف للتمكن من استخراج ترخيص مزاولة المهنة.',
+        href: 'ministries/labor/skill-assessment-certificate.html'
       }
     ]
   },
