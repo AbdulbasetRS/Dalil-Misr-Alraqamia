@@ -113,6 +113,11 @@ const MINISTRIES = [
         title: 'استخراج شهادة قياس مهارة',
         desc: 'شهادة تثبت مستوى المهارة المهنية، تلزم بعض الوظائف للتمكن من استخراج ترخيص مزاولة المهنة.',
         href: 'ministries/labor/skill-assessment-certificate.html'
+      },
+      {
+        title: 'إستخراج ترخيص مزاولة مهنة',
+        desc: 'الحصول على ترخيص مزاولة إحدى المهن المسجلة بوزارة العمل، عبر مقابلة شخصية أو بشهادة قياس مهارة مسجلة مسبقًا.',
+        href: 'ministries/labor/professional-practice-license.html'
       }
     ]
   },
