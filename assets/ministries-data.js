@@ -30,6 +30,16 @@ const MINISTRIES = [
         title: 'تظلم فرز',
         desc: 'تقديم تظلم على نتيجة فرز إعلان سكن لكل المصريين، ومعرفة المستندات المطلوبة حسب سبب عدم الانطباق.',
         href: 'ministries/housing/social-housing-grievance.html'
+      },
+      {
+        title: 'استعراض الإعلانات وشراء كراسة الشروط',
+        desc: 'اختيار الإعلان المطروح (برنامج الإيجار) والاطلاع على مواعيده ووحداته ومحددات الدخل، ثم خطوات شراء كراسة الشروط.',
+        href: 'ministries/housing/rent-ads/browse-and-booklet.html'
+      },
+      {
+        title: 'تقديم طلب حجز وحدة سكنية',
+        desc: 'اختيار الإعلان المطروح (برنامج الإيجار) ثم خطوات تقديم طلب الحجز: البيانات والإقرارات والمستندات وسداد التأمين.',
+        href: 'ministries/housing/rent-ads/apply-reservation.html'
       }
     ]
   },
@@ -122,7 +132,6 @@ const MINISTRIES = [
     ]
   },
   { name: 'وزارة الداخلية', status: 'soon', services: [] },
-  { name: 'وزارة المالية', status: 'soon', services: [] },
   { name: 'وزارة الصحة والسكان', status: 'soon', services: [] },
   { name: 'وزارة العدل', status: 'soon', services: [] },
   { name: 'وزارة التنمية المحلية', status: 'soon', services: [] },
